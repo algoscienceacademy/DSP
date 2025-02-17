@@ -51,6 +51,43 @@ python signalgui2.py  # For intermediate
 python main.py        # For expert
 ```
 
+# Project Setup Guide
+
+## Virtual Environment Setup
+
+1. Install Python 3.8 or higher if not already installed
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+3. Activate the virtual environment:
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+## Required Packages
+
+Install the following packages after activating your virtual environment:
+
+```bash
+pip install -r requirements.txt
+```
+
+Essential packages include:
+- pip>=21.0.0
+- setuptools>=45.0.0
+- wheel>=0.37.0
+- pytest>=6.0.0
+- black>=22.0.0  # for code formatting
+- flake8>=3.9.0  # for linting
+- mypy>=0.910    # for type checking
+- python-dotenv>=0.19.0  # for environment variables
+
 ## Features
 
 ### Common Features
