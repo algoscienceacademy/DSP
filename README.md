@@ -1,3 +1,4 @@
+
 # Digital Signal Processing (DSP) Learning Suite
 
 A comprehensive suite of interactive DSP applications designed for different skill levels. This project provides hands-on experience with digital signal processing concepts through visual and interactive tools.
@@ -19,6 +20,9 @@ aliasF/
 ```
 
 ## Overview
+
+https://github.com/user-attachments/assets/d7b1503d-d5fb-4390-8511-4a2d62e70ccf
+
 
 This project offers three levels of DSP applications:
 - **Beginner**: Basic signal sampling and quantization
